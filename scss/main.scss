@@ -1,0 +1,33 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  width: 100vw;
+  height: 100vh;
+  font-family: "Conduit Bold", monospace;
+}
+
+.wrapper
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 5rem;
+
+  &:before
+  {
+    content: '(';
+  }
+
+  &:after
+  {
+    content: ')';
+  }
+}
