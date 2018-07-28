@@ -4,8 +4,8 @@
   "description": "Based on the movie 500 Days of Summer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch scss -o css"
+    "test": "echo \"Error: no test specified\"",
+    "scss": "node-sass --watch docs/scss -o docs/css"
   },
   "repository": {
     "type": "git",
