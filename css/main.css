@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "ITC Conduit";
+  src: url("../fonts/itc-conduit.otf") format("opentype"); }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +10,9 @@
 body {
   width: 100vw;
   height: 100vh;
-  font-family: "Conduit Bold", monospace; }
+  background-image: url("../assets/1-day-of-summer.jpg");
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif; }
 
 .wrapper {
   display: flex;
@@ -14,8 +20,9 @@ body {
   justify-content: center;
   width: 100%;
   height: 100%;
-  font-size: 5rem; }
-  .wrapper:before {
-    content: '('; }
-  .wrapper:after {
-    content: ')'; }
+  font-size: 5rem;
+  color: #EEE; }
+
+.count {
+  margin-top: 30px;
+  font-family: "ITC Conduit", monospace; }
