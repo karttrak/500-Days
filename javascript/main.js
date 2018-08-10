@@ -1,6 +1,6 @@
 const MILLIS_PER_SECOND = 1000;
 const SECONDS_PER_DAY = 86400;
-const START_DATE = new Date("June 28, 2018 09:00:00");
+const START_DATE = new Date("June 28, 2018 05:00:00");
 
 let today = new Date();
 
