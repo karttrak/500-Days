@@ -17,9 +17,13 @@ body
 {
   width: 100vw;
   height: 100vh;
-  background-image: url($image-path + '500-days-109.png');
+  background-image: url($image-path + '500-days-109_mobile.jpg');
   background-size: cover;
   font-family: Helvetica, Arial, sans-serif;
+
+  @media(min-width: 768px) {
+    background-image: url($image-path + '500-days-109_desktop.jpg');
+  }
 }
 
 .wrapper
