@@ -1,7 +1,6 @@
 @font-face {
   font-family: "ITC Conduit";
   src: url("../fonts/itc-conduit.otf") format("opentype"); }
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,9 +9,12 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url("../assets/500-days-109.png");
+  background-image: url("../assets/500-days-109_mobile.jpg");
   background-size: cover;
   font-family: Helvetica, Arial, sans-serif; }
+  @media (min-width: 768px) {
+    body {
+      background-image: url("../assets/500-days-109_desktop.jpg"); } }
 
 .wrapper {
   display: flex;
@@ -26,3 +28,5 @@ body {
 .count {
   margin-top: 30px;
   font-family: "ITC Conduit", monospace; }
+
+/*# sourceMappingURL=main.css.map */
